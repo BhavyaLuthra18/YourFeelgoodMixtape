@@ -706,6 +706,21 @@ function displayCurrentPlaylist(playlist) {
   const songsList = document.createElement("ul");
   playlist.songs.forEach((song, index) => {
     const songItem = document.createElement("li");
+    songItem.style.display = "flex";
+    songItem.style.alignItems = "center";
+    songItem.style.marginBottom = "10px";
+    songItem.style.cursor = "pointer";
+
+    //     // Create the song image
+    const songImage = document.createElement("img");
+    songImage.src = song.img;
+    songImage.alt = `${song.Name} cover`;
+    songImage.style.width = "50px";
+    songImage.style.height = "50px";
+    songImage.style.marginRight = "4px";
+    songImage.style.borderRadius = "5px";
+    songImage.style.objectFit = "cover";
+
     songItem.textContent = song.Name;
 
     // Create a "Remove" button for each song
