@@ -554,6 +554,10 @@ select {
   padding: 0;
 }
 
+#playlist-list li {
+  margin-bottom: 10px;
+}
+
 .playlist-section li {
   list-style: none;
   color: #ffffff;
