@@ -694,7 +694,6 @@ function handlePlaylistClick(playlist) {
 //   });
 //   currentPlaylistSection.appendChild(songsList);
 // }
-
 function displayCurrentPlaylist(playlist) {
   const currentPlaylistSection = document.getElementById("current-playlist");
   currentPlaylistSection.innerHTML = "";
@@ -709,24 +708,32 @@ function displayCurrentPlaylist(playlist) {
     songItem.style.display = "flex";
     songItem.style.alignItems = "center";
     songItem.style.marginBottom = "10px";
-    songItem.style.cursor = "pointer";
 
-    //     // Create the song image
+    // Create the song image
     const songImage = document.createElement("img");
     songImage.src = song.img;
     songImage.alt = `${song.Name} cover`;
     songImage.style.width = "50px";
     songImage.style.height = "50px";
-    songImage.style.marginRight = "4px";
+    songImage.style.marginRight = "10px";
     songImage.style.borderRadius = "5px";
     songImage.style.objectFit = "cover";
 
-    songItem.textContent = song.Name;
+    // Create a container for the song name and button
+    const songDetails = document.createElement("div");
+    songDetails.style.display = "flex";
+    songDetails.style.alignItems = "center";
+    songDetails.style.flexGrow = "1";
+
+    // Create the song name
+    const songName = document.createElement("span");
+    songName.textContent = song.Name;
+    songName.style.flexGrow = "1";
+    songName.style.marginRight = "10px";
 
     // Create a "Remove" button for each song
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
-    removeButton.style.marginLeft = "8px";
     removeButton.style.padding = "5px 10px";
     removeButton.style.backgroundColor = "red";
     removeButton.style.color = "white";
@@ -734,14 +741,23 @@ function displayCurrentPlaylist(playlist) {
     removeButton.style.borderRadius = "5px";
     removeButton.style.fontSize = "16px";
     removeButton.style.cursor = "pointer";
+
+    // Remove song functionality
     removeButton.addEventListener("click", () => {
-      // Remove the song from the playlist and update the UI
       playlist.songs.splice(index, 1);
       displayCurrentPlaylist(playlist);
     });
 
-    songItem.appendChild(removeButton);
+    // Append elements to the container
+    songDetails.appendChild(songName);
+    songDetails.appendChild(removeButton);
+
+    // Append image and container to the song item
+    songItem.appendChild(songImage);
+    songItem.appendChild(songDetails);
+
     songsList.appendChild(songItem);
   });
+
   currentPlaylistSection.appendChild(songsList);
 }
