@@ -711,6 +711,14 @@ function displayCurrentPlaylist(playlist) {
     // Create a "Remove" button for each song
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
+    removeButton.style.marginLeft = "8px";
+    removeButton.style.padding = "5px 10px";
+    removeButton.style.backgroundColor = "red";
+    removeButton.style.color = "white";
+    removeButton.style.border = "none";
+    removeButton.style.borderRadius = "5px";
+    removeButton.style.fontSize = "16px";
+    removeButton.style.cursor = "pointer";
     removeButton.addEventListener("click", () => {
       // Remove the song from the playlist and update the UI
       playlist.songs.splice(index, 1);
