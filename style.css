@@ -48,7 +48,13 @@ body {
 }
 
 .topHeading {
-  color: rgb(109, 82, 113);
+  color: #6d5271; /* Neutral color that works in both modes */
+  font-size: 3rem; /* Prominent font size */
+  font-weight: 600; /* Slightly bold for emphasis */
+  text-align: center; /* Centered for a clean layout */
+  margin-bottom: 20px; /* Spacing below the heading */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
+  transition: text-shadow 0.3s, color 0.3s; /* Smooth transitions for interactions */
 }
 
 .topHeading img {
