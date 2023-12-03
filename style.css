@@ -163,7 +163,8 @@ body {
 #song-search-results-list li {
   list-style-type: none;
   font-size: 1rem;
-  background-color: #4c4848;
+  background-color: #6a6666;
+  border: 2px solid rgb(169, 135, 169);
   border-radius: 10px;
   color: white;
   width: 400px;
