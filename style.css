@@ -234,6 +234,11 @@ body {
     height: 90vh;
     margin-left: 20px;
   }
+
+  #song-search-results-list li {
+    font-size: 1rem;
+    width: 300px;
+  }
 }
 
 @media (max-width: 480px) {
