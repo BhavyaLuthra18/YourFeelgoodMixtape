@@ -457,134 +457,85 @@ select {
 }
 
 /*--PLAYLIST SECTION---*/
-/*--- PLAYLIST SECTION ---*/
 #Playlist-div {
-  background: linear-gradient(145deg, #6b4878, #a856c9, #000000);
+  background: linear-gradient(180deg, #000, #4d235d);
   width: 100%;
   max-width: 300px;
   height: auto;
   min-height: 300px;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
   scrollbar-width: thin;
-  margin: 20px auto;
-  transition: box-shadow 0.3s ease-in-out, transform 0.2s;
+  margin: 0 auto;
 }
 
-#Playlist-div:hover {
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
-  transform: scale(1.02);
-}
-
-/*--- CREATE PLAYLIST FORM ---*/
 #create-playlist {
   display: flex;
-  gap: 10px;
-  margin-top: 20px;
-  justify-content: center;
+  gap: 4px;
 }
 
-/*--- SCROLLBAR STYLING ---*/
 #Playlist-div::-webkit-scrollbar {
   width: 8px;
 }
 
 #Playlist-div::-webkit-scrollbar-thumb {
-  background-color: #af6bc8;
-  border-radius: 12px;
-  border: 2px solid transparent;
-  background-clip: padding-box;
+  background-color: #9c6fb5;
+  border-radius: 10px;
 }
 
-#Playlist-div::-webkit-scrollbar-thumb:hover {
-  background-color: #d188f2;
-}
-
-/*--- PLAYLIST NAME INPUT ---*/
 #playlist-name-input {
   max-width: 100%;
   width: 100%;
   height: 50px;
-  padding: 12px;
+  padding: 12px 16px;
   font-size: 1.1rem;
   border: 2px solid #ffffff;
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
   box-sizing: border-box;
-  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#playlist-name-input:focus {
-  border-color: #af6bc8;
-  outline: none;
-  box-shadow: 0 0 10px rgba(175, 107, 200, 0.8);
-}
-
-/*--- CREATE PLAYLIST BUTTON ---*/
 #create-playlist-button {
   max-width: 300px;
   height: 46px;
-  border-radius: 12px;
+  border-radius: 10px;
   font-size: 1rem;
-  font-weight: bold;
   color: #ffffff;
-  background-color: #1c1c1c;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out, transform 0.2s;
+  background-color: rgb(15, 15, 15);
+  white-space: nowrap;
 }
 
-#create-playlist-button:hover {
-  background-color: #af6bc8;
-  transform: scale(1.05);
-}
-
-/*--- BUTTON TEXT ---*/
+/*--CREATE TO PLAYLIST BUTTON TEXT---*/
 #button-text {
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 1rem;
   text-align: center;
-  color: #ffffff;
-  letter-spacing: 0.5px;
 }
 
-/*--- CURRENT PLAYLIST HEADING ---*/
+/*---CURRENT PLAYLIST HEADING--*/
 #current-playlist h1 {
-  color: #ffffff;
+  color: #fff;
   margin-top: 20px;
   margin-left: 10px;
   width: 100%;
   text-align: center;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
 }
 
-/*--- ALL PLAYLIST SECTION ---*/
 #all-playlists {
   overflow-y: auto;
 }
-
+/*--ALL PLAYLIST SECTION HEADING---*/
 #all-playlists h1 {
-  color: #ffffff;
-  margin-top: 100px;
+  color: #fff;
+  margin-top: 150px;
   text-align: center;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 1.2rem;
   width: 100%;
 }
 
-#Playlist-div ul {
-  padding: 0; /* Remove padding from the list */
-  margin: 0; /* Remove margin from the list */
-  list-style: none; /* Remove default list styling */
-}
-/*--- PLAYLIST ITEMS ---*/
+/*---PLAYLIST SECTION LIST STYLING--*/
 .playlist-section li {
   list-style: none;
   color: #ffffff;
@@ -597,33 +548,28 @@ select {
   transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
-.playlist-section li:hover {
-  background-color: rgba(175, 107, 200, 0.3);
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-/*--- RESPONSIVENESS ---*/
+/*--MEDIA QUERIES FOR RESPONSIVENESS--*/
 @media (max-width: 768px) {
   #Playlist-div {
     max-width: 90%;
+    height: auto;
     padding: 15px;
   }
 
   #playlist-name-input {
-    font-size: 1rem;
+    max-width: 100%;
   }
 
   #create-playlist-button {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   #all-playlists h1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .playlist-section li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -631,23 +577,23 @@ select {
   #Playlist-div {
     max-width: 100%;
     min-height: 250px;
+    height: auto;
     padding: 10px;
   }
 
   #playlist-name-input {
-    font-size: 0.9rem;
+    width: 100%;
   }
 
   #create-playlist-button {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   #all-playlists h1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .playlist-section li {
     font-size: 1rem;
-    padding: 10px 12px;
   }
 }

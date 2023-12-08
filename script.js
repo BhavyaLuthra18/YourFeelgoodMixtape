@@ -625,10 +625,10 @@ function displayCurrentPlaylist(playlist) {
   const songsList = document.createElement("ul");
   playlist.songs.forEach((song, index) => {
     const songItem = document.createElement("li");
-    songItem.style.display = "flex";
-    songItem.style.alignItems = "center";
+    songItem.style.display = "flex"; // Align the image and text horizontally
+    songItem.style.alignItems = "center"; // Center vertically
     songItem.style.marginBottom = "10px";
-    songItem.style.cursor = "pointer";
+    songItem.style.cursor = "pointer"; // Indicate it's clickable
 
     // Create the song image
     const songImage = document.createElement("img");
@@ -647,6 +647,7 @@ function displayCurrentPlaylist(playlist) {
     // Create a "Remove" button for each song
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
+    removeButton.style.marginLeft = "8px";
     removeButton.style.padding = "5px 10px";
     removeButton.style.backgroundColor = "red";
     removeButton.style.color = "white";
