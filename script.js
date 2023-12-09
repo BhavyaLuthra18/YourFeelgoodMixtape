@@ -625,10 +625,10 @@ function displayCurrentPlaylist(playlist) {
   const songsList = document.createElement("ul");
   playlist.songs.forEach((song, index) => {
     const songItem = document.createElement("li");
-    songItem.style.display = "flex"; // Align the image and text horizontally
-    songItem.style.alignItems = "center"; // Center vertically
+    songItem.style.display = "flex";
+    songItem.style.alignItems = "center";
     songItem.style.marginBottom = "10px";
-    songItem.style.cursor = "pointer"; // Indicate it's clickable
+    songItem.style.cursor = "pointer";
 
     // Create the song image
     const songImage = document.createElement("img");
