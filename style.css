@@ -93,6 +93,7 @@ body {
     font-size: 1.8rem;
   }
 }
+
 .heading {
   color: rgb(141, 68, 153);
   font-size: 1.6rem;
@@ -107,6 +108,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-left: 75px;
+  margin-bottom: 50px;
   gap: 30px;
 }
 
