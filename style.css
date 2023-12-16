@@ -484,8 +484,7 @@ select {
 }
 
 #playlist-name-input {
-  width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   height: 30px;
   padding: 8px;
   border: 2px solid #ffffff;
@@ -494,7 +493,6 @@ select {
 }
 
 #create-playlist-button {
-  width: 100%;
   max-width: 200px;
   height: 46px;
   border-radius: 10px;
