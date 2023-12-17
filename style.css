@@ -495,10 +495,10 @@ select {
 
 #create-playlist-button {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   height: 46px;
   border-radius: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #ffffff;
   background-color: rgb(15, 15, 15);
 }
@@ -553,7 +553,6 @@ select {
   }
 
   #create-playlist-button {
-    max-width: 100%;
     font-size: 1rem;
   }
 
@@ -579,8 +578,7 @@ select {
   }
 
   #create-playlist-button {
-    width: 100%;
-    font-size: 0.25rem;
+    font-size: 1rem;
   }
 
   #all-playlists h1 {
