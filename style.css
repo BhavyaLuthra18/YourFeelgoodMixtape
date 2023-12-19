@@ -230,6 +230,7 @@ body {
   #All-Songs {
     width: 60vw;
     height: 90vh;
+    margin-left: 20px;
   }
 }
 
@@ -237,6 +238,7 @@ body {
   #All-Songs {
     width: 80vw;
     height: 90vh;
+    margin-left: 20px;
   }
 }
 
