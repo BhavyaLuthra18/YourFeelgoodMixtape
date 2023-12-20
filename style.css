@@ -441,6 +441,17 @@ select {
   font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  #Song-card {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 480px) {
+  #Song-card {
+    margin-left: 20px;
+  }
+}
+
 /*--PLAYLIST SECTION---*/
 #Playlist-div {
   background: linear-gradient(180deg, #000, #4d235d);
