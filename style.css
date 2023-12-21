@@ -113,7 +113,7 @@ body {
 @media (max-width: 840px) {
   .container {
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 8px;
   }
 
   .topHeading img {
