@@ -423,7 +423,6 @@ select {
   justify-content: center;
   text-align: center;
 }
-
 #add-to-playlist {
   background-color: #2f2b36;
   border-radius: 50px;
@@ -433,7 +432,8 @@ select {
   justify-content: center;
   text-align: center;
   gap: 10px;
-  width: 200px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .fa-plus-circle {
@@ -495,16 +495,6 @@ select {
   margin-top: 50px;
   font-size: 1rem;
   text-align: center;
-}
-#addtocardbutton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 1rem;
-  max-width: 200px;
-  height: 50px;
-  margin: 10px auto;
 }
 
 /*---CURRENT PLAYLIST HEADING--*/
