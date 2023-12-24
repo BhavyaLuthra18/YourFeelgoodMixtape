@@ -532,10 +532,11 @@ select {
 .playlist-section li {
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 5px 0;
   text-align: center;
 }
+
 /*--MEDIA QUERIES FOR RESPONSIVENESS--*/
 @media (max-width: 768px) {
   #Playlist-div {
@@ -576,7 +577,7 @@ select {
 
   #create-playlist-button {
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.25rem;
   }
 
   #all-playlists h1 {
