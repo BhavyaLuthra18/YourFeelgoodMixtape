@@ -533,35 +533,28 @@ select {
   list-style: none;
   color: #fff;
   font-size: 1.5rem;
+  margin: 5px 0;
+  text-align: center;
 }
-
+/*--MEDIA QUERIES FOR RESPONSIVENESS--*/
 @media (max-width: 768px) {
-  /* Adjust layout for smaller screens (tablets and phones) */
   #Playlist-div {
-    width: 80vw;
-    height: 50vh;
-    margin-right: 0;
-    margin-bottom: 20px;
+    max-width: 90%;
+    height: auto;
+    padding: 15px;
   }
 
   #playlist-name-input {
-    width: 250px;
+    max-width: 100%;
   }
 
   #create-playlist-button {
-    max-width: 150px;
+    max-width: 100%;
     font-size: 1rem;
   }
 
-  #add-to-playlist {
-    margin-top: 20px;
-    width: 100%;
-  }
-
   #all-playlists h1 {
-    margin-top: 30px;
-    font-size: 1.2rem;
-    width: 100%;
+    font-size: 1rem;
   }
 
   .playlist-section li {
@@ -570,23 +563,27 @@ select {
 }
 
 @media (max-width: 480px) {
-  /* Adjust layout for very small screens (smartphones) */
   #Playlist-div {
-    width: 90vw;
-    height: 40vh;
+    max-width: 100%;
+    min-height: 250px;
+    height: auto;
+    padding: 10px;
   }
 
   #playlist-name-input {
-    width: 200px;
+    width: 100%;
   }
 
   #create-playlist-button {
-    max-width: 150px;
+    width: 100%;
     font-size: 1rem;
   }
 
   #all-playlists h1 {
+    font-size: 0.9rem;
+  }
+
+  .playlist-section li {
     font-size: 1rem;
-    width: 100%;
   }
 }
