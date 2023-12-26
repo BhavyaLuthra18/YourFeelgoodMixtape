@@ -512,7 +512,8 @@ select {
   color: #fff;
   margin-top: 20px;
   margin-left: 10px;
-  width: 300px;
+  width: 100%;
+  text-align: center;
 }
 
 #all-playlists {
@@ -523,7 +524,8 @@ select {
   color: #fff;
   margin-top: 150px;
   text-align: center;
-  width: 210px;
+  font-size: 1.2rem;
+  width: 100%;
 }
 
 /*---PLAYLIST SECTION LIST STYLING--*/
