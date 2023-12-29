@@ -436,7 +436,7 @@ select {
 }
 
 .fa-plus-circle {
-  color: #6c43b8; /* Icon color matches card */
+  color: #6c43b8;
   font-size: 1.5rem;
 }
 
@@ -444,15 +444,15 @@ select {
 #Playlist-div {
   background: linear-gradient(180deg, #000, #4d235d);
   width: 100%;
-  max-width: 300px; /* Limit max width */
+  max-width: 300px;
   height: auto;
-  min-height: 300px; /* Ensure minimum height */
+  min-height: 300px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
   scrollbar-width: thin;
-  margin: 0 auto; /* Center on small screens */
+  margin: 0 auto;
 }
 
 #create-playlist {
