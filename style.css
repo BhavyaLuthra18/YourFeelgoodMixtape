@@ -443,13 +443,16 @@ select {
 /*--PLAYLIST SECTION---*/
 #Playlist-div {
   background: linear-gradient(180deg, #000, #4d235d);
-  width: 300px;
-  height: 450px;
+  width: 100%;
+  max-width: 300px; /* Limit max width */
+  height: auto;
+  min-height: 300px; /* Ensure minimum height */
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
   scrollbar-width: thin;
+  margin: 0 auto; /* Center on small screens */
 }
 
 #create-playlist {
@@ -540,7 +543,8 @@ select {
   }
 
   #create-playlist-button {
-    max-width: 250px;
+    max-width: 150px;
+    font-size: 1rem;
   }
 
   #add-to-playlist {
@@ -571,8 +575,8 @@ select {
   }
 
   #create-playlist-button {
-    width: 80%;
-    max-width: 200px;
+    max-width: 150px;
+    font-size: 1rem;
   }
 
   #all-playlists h1 {
