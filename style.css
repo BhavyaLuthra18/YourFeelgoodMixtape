@@ -452,6 +452,11 @@ select {
   scrollbar-width: thin;
 }
 
+#create-playlist {
+  display: flex;
+  gap: 4px;
+}
+
 #Playlist-div::-webkit-scrollbar {
   width: 8px;
 }
