@@ -423,15 +423,20 @@ select {
   text-align: center;
 }
 #add-to-playlist {
-  background-color: #c7c7c7;
+  background-color: #2f2b36;
   border-radius: 50px;
-  color: #000000;
+  color: #ffffff;
   white-space: nowrap;
   display: flex;
   justify-content: center;
   text-align: center;
   gap: 10px;
   margin-top: 40px;
+}
+
+.fa-plus-circle {
+  color: #6c43b8; /* Icon color matches card */
+  font-size: 1.5rem;
 }
 
 /*--PLAYLIST SECTION---*/
