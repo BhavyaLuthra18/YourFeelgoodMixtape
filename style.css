@@ -382,11 +382,7 @@ select {
 }
 
 /*--PREVIOUS BUTTON ICON STYLING-*/
-.fa-arrow-left {
-  text-align: center;
-  color: #fff;
-  font-weight: 400;
-}
+
 /*-NEXT BUTTON--*/
 #Next {
   width: 50px;
@@ -405,10 +401,10 @@ select {
   transform: scale(1.1);
 }
 
-/*--NEXT BUTTON ICON STYLING-*/
+.fa-arrow-left,
 .fa-arrow-right {
-  text-align: center;
-  color: #fff;
+  color: #6c43b8; /* Match the card's gradient */
+  font-size: 1.5rem;
 }
 
 #audio {
