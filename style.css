@@ -343,13 +343,13 @@ select {
 
 #song-name {
   font-size: 1.6rem;
-  color: #000000;
+  color: #ffffff;
   margin-left: auto;
 }
 
 #artist-name {
   font-size: 1.2rem;
-  color: #1d1c1c;
+  color: #eaeaea;
 }
 
 .cardimg {
