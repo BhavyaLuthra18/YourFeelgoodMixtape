@@ -373,8 +373,8 @@ select {
 #Prev {
   background-color: #e9e7e7;
   border-radius: 10px;
-  width: 80px;
-  height: 40px;
+  width: 70px;
+  height: 30px;
   margin-left: 30px;
   margin-top: 15px;
   display: flex;
@@ -385,13 +385,14 @@ select {
 /*--PREVIOUS BUTTON ICON STYLING-*/
 .fa-arrow-left {
   text-align: center;
+  color: #fff;
 }
 /*-NEXT BUTTON--*/
 #Next {
   background-color: #e9e7e7;
   border-radius: 10px;
-  width: 80px;
-  height: 40px;
+  width: 70px;
+  height: 30px;
   display: flex;
   justify-content: center;
   margin-right: 30px;
@@ -402,6 +403,7 @@ select {
 /*--NEXT BUTTON ICON STYLING-*/
 .fa-arrow-right {
   text-align: center;
+  color: #fff;
 }
 
 #audio {
