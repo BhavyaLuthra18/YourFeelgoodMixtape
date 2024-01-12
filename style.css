@@ -221,21 +221,21 @@ body {
 @media (max-width: 1024px) {
   #All-Songs {
     width: 40vw;
-    height: 75vh;
+    height: 90vh;
   }
 }
 
 @media (max-width: 768px) {
   #All-Songs {
     width: 60vw;
-    height: 80vh;
+    height: 90vh;
   }
 }
 
 @media (max-width: 480px) {
   #All-Songs {
     width: 80vw;
-    height: 75vh;
+    height: 90vh;
   }
 }
 
