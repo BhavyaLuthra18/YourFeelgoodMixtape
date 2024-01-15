@@ -36,6 +36,7 @@ body {
   font-size: 1rem;
   margin-left: 10px;
   color: #fff;
+  text-align: center;
   background-color: #1c8dc6;
   border: 1px solid #1c8dc6;
   transition: background-color 0.3s;
@@ -62,9 +63,8 @@ body {
   }
 
   #search-song-button {
-    width: 60px;
+    width: 100px;
     height: 40px;
-    padding: 4px;
     margin-left: 10px;
   }
 
@@ -73,6 +73,25 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  #song-input-field input {
+    width: 120px;
+    padding: 6px;
+    font-size: 0.45rem;
+  }
+
+  #search-song-button {
+    width: 80px;
+    height: 40px;
+    padding: 0px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .topHeading {
+    font-size: 1.8rem;
+  }
+}
 .heading {
   color: rgb(141, 68, 153);
   font-size: 1.6rem;
@@ -113,26 +132,6 @@ body {
 
   #btnIcon {
     font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  #song-input-field input {
-    width: 120px;
-    padding: 6px;
-    font-size: 0.45rem;
-  }
-
-  #search-song-button {
-    width: 40px;
-    height: 20px;
-    padding: 0px;
-    font-size: 1rem;
-    margin-left: 10px;
-  }
-
-  .topHeading {
-    font-size: 1.8rem;
   }
 }
 
