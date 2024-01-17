@@ -46,6 +46,14 @@ body {
   transform: scale(1.05);
 }
 
+.topHeading {
+  color: rgb(141, 68, 153);
+}
+
+.topHeading img {
+  width: 100px;
+}
+
 @media (max-width: 768px) {
   #song-input-field input {
     width: 200px;
@@ -62,6 +70,49 @@ body {
 
   .topHeading {
     font-size: 1.8rem;
+  }
+}
+
+.heading {
+  color: rgb(141, 68, 153);
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/*--container that stores all songs ,song card, playlist section*/
+.container {
+  display: flex;
+  width: 90vw;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  gap: 20px;
+}
+
+@media (max-width: 840px) {
+  .container {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .topHeading img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topHeading img {
+    width: 70px;
+  }
+
+  #btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  #btnIcon {
+    font-size: 1.5rem;
   }
 }
 
@@ -91,7 +142,7 @@ body {
   align-items: center;
   gap: 2px;
 }
-/*---search-song-input-field-section--*/
+
 /*--search-song---*/
 #searchsong {
   display: flex;
@@ -157,56 +208,6 @@ body {
   background-color: #7291e7;
 }
 /* ---Heading of the music Player---*/
-.heading {
-  color: rgb(141, 68, 153);
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.topHeading {
-  color: rgb(141, 68, 153);
-}
-
-.topHeading img {
-  width: 100px;
-}
-
-/*--container that stores all songs ,song card, playlist section*/
-.container {
-  display: flex;
-  width: 90vw;
-  margin-bottom: 20px;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 100px;
-  gap: 20px;
-}
-
-@media (max-width: 840px) {
-  .container {
-    flex-direction: column;
-    margin-left: 0;
-  }
-
-  .topHeading img {
-    width: 70px;
-  }
-}
-
-@media (max-width: 768px) {
-  .topHeading img {
-    width: 70px;
-  }
-
-  #btn {
-    width: 45px;
-    height: 45px;
-  }
-
-  #btnIcon {
-    font-size: 1.5rem;
-  }
-}
 
 /*--all songs Section---*/
 #All-Songs {
