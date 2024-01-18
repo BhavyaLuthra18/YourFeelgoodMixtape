@@ -280,11 +280,7 @@ select {
   padding: 15px;
   border: 2px solid #580d7e;
   border-radius: 15px;
-  background: linear-gradient(
-    145deg,
-    #641d7d,
-    #530d76
-  ); /* Gradient background */
+  background: linear-gradient(145deg, #641d7d, #530d76);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5);
   max-width: 400px;
   scrollbar-width: thin;
@@ -310,13 +306,13 @@ select {
   box-shadow: 0 4px 6px rgba(88, 13, 126, 0.4),
     inset 0 0 10px rgba(255, 255, 255, 0.3);
   border-radius: 15px;
-  transform: scale(1.03); /* Slight zoom effect */
+  transform: scale(1.03);
   cursor: pointer;
 }
 
 /* Active List Item Styling */
 #song-list li.active {
-  background: #ff8c00; /* Highlight the selected song */
+  background: #ff8c00;
   color: #fff;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(255, 140, 0, 0.7);
