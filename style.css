@@ -104,13 +104,6 @@ body {
   align-items: center;
 }
 
-/*---search Song Button---*/
-#search-song-button {
-  width: 100px;
-  height: 50px;
-  margin-left: 10px;
-}
-
 /*---search-song-results-styling---*/
 #song-search-results-list li {
   list-style-type: none;
