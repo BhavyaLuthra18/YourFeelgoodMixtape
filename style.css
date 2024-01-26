@@ -202,6 +202,15 @@ body {
   .topHeading img {
     width: 70px;
   }
+
+  #btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  #btnIcon {
+    font-size: 1.5rem;
+  }
 }
 
 /*--all songs Section---*/
