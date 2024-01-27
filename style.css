@@ -192,6 +192,16 @@ body {
     flex-direction: column;
     margin-left: 0;
   }
+
+  .topHeading img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topHeading img {
+    width: 70px;
+  }
 }
 
 /*--all songs Section---*/
