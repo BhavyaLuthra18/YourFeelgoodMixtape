@@ -172,6 +172,10 @@ body {
   color: rgb(141, 68, 153);
 }
 
+.topHeading img {
+  width: 100px;
+}
+
 /*--container that stores all songs ,song card, playlist section*/
 .container {
   display: flex;
