@@ -57,6 +57,10 @@ body {
     padding: 4px;
     margin-left: 10px;
   }
+
+  .topHeading {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -72,6 +76,10 @@ body {
     padding: 0px;
     font-size: 1rem;
     margin-left: 10px;
+  }
+
+  .topHeading {
+    font-size: 1.6rem;
   }
 }
 
@@ -135,15 +143,15 @@ body {
 
 /*--Text of the Toggle-buttonn--*/
 #btnIcon {
-  font-size: 1.5rem; /* Adjust icon size */
+  font-size: 1.5rem;
 }
 
 /* Style for the text next to the button */
 #btnText {
   text-align: center;
 }
-/*--styling of the toggle-button theme---*/
 
+/*--styling of the toggle-button theme---*/
 [data-theme="dark"] {
   background-color: #000000;
   color: white;
