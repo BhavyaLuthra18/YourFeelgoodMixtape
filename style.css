@@ -186,7 +186,7 @@ body {
 #All-Songs {
   background: linear-gradient(135deg, rgb(4, 3, 3) 10%, #b569c6 90%);
   width: 25vw;
-  height: 75vh;
+  height: 80vh;
   border-radius: 10px;
   padding: 10px;
   font-size: 0.75rem;
@@ -261,9 +261,8 @@ select {
   ); /* Gradient background */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5);
   max-width: 400px;
-  margin: auto;
   scrollbar-width: thin;
-  max-height: 400px;
+  max-height: 500px;
   overflow: auto; /* Enable scrolling on overflow */
 }
 
