@@ -273,7 +273,7 @@ select {
 
 #song-list::-webkit-scrollbar-thumb {
   background-color: #9c6fb5;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 /* Remove the style of the list items */
