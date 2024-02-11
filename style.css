@@ -262,8 +262,18 @@ select {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5);
   max-width: 400px;
   margin: auto;
-  overflow-y: auto;
+  scrollbar-width: thin;
   max-height: 400px;
+  overflow: auto; /* Enable scrolling on overflow */
+}
+
+#song-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+#song-list::-webkit-scrollbar-thumb {
+  background-color: #9c6fb5;
+  border-radius: 10px;
 }
 
 /* Remove the style of the list items */
