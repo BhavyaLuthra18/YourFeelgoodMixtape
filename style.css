@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   background-color: #e6c8f3;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -78,7 +78,8 @@ body {
 #song-input-field {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 10px;
 }
 /*---search-song-input-field-section--*/
 /*--search-song---*/
@@ -88,9 +89,10 @@ body {
 
 /*---search input field styling---*/
 #song-search-input {
-  width: 500px;
+  width: 400px;
   height: 20px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
