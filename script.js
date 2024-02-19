@@ -108,10 +108,10 @@ function toggleTheme() {
 
   if (currentTheme === "light") {
     body.setAttribute("data-theme", "dark");
-    btnIcon.className = "fa fa-sun-o"; // Sun icon for dark mode
+    btnIcon.className = "fa fa-sun-o";
   } else {
     body.setAttribute("data-theme", "light");
-    btnIcon.className = "fa fa-moon-o"; // Moon icon for light mode
+    btnIcon.className = "fa fa-moon-o";
   }
 }
 
