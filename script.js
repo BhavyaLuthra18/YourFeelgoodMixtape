@@ -104,14 +104,14 @@ const songJSON = [
 function toggleTheme() {
   const body = document.body;
   const currentTheme = body.getAttribute("data-theme");
+  const btnIcon = document.getElementById("btnIcon");
+
   if (currentTheme === "light") {
     body.setAttribute("data-theme", "dark");
-    btnIcon.className = "fa fa-sun-o";
-    btnText.innerHTML = "Light";
+    btnIcon.className = "fa fa-sun-o"; // Sun icon for dark mode
   } else {
     body.setAttribute("data-theme", "light");
-    btnIcon.className = "fa fa-moon-o";
-    btnText.innerHTML = "Dark";
+    btnIcon.className = "fa fa-moon-o"; // Moon icon for light mode
   }
 }
 
