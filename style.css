@@ -11,10 +11,9 @@ body {
 /*---COMBINE STYLING OF THE SEARCH FIELD AND THE TOGGLE THEME--*/
 #search-theme {
   display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  justify-content: center; /* Center items horizontally */
+  justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   background-color: #e6c8f3;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -71,6 +70,11 @@ body {
     height: 40px;
     margin-left: 10px;
   }
+}
+
+#song-input-field {
+  display: flex;
+  justify-content: center;
 }
 /*---search-song-input-field-section--*/
 /*--search-song---*/
