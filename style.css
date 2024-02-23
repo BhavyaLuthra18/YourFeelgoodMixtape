@@ -11,12 +11,12 @@ body {
 /*---COMBINE STYLING OF THE SEARCH FIELD AND THE TOGGLE THEME--*/
 #search-theme {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: center; /* Center items horizontally */
   align-items: center;
+  gap: 15px;
   background-color: #e6c8f3;
   padding: 15px;
-  gap: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   margin: 0 auto;
@@ -76,14 +76,14 @@ body {
 /*--search-song---*/
 #searchsong {
   display: flex;
-  flex-direction: column;
-  margin-top: 10px;
 }
 
 /*---search input field styling---*/
 #song-search-input {
   width: 500px;
   height: 20px;
+  display: flex;
+  align-items: center;
 }
 
 /*---search Song Button---*/
@@ -110,14 +110,16 @@ body {
 
 /*---toogle--button--*/
 #btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #0573ab;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 150px;
   height: 50px;
   border: #0573ab 2px solid;
   border-radius: 100px;
-  margin-left: 500px;
 }
 /*--Text of the Toggle-buttonn--*/
 #btnText {
