@@ -20,7 +20,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   margin: 0 auto;
-  border-radius: 10px;
 }
 
 #song-input-field input {
@@ -52,6 +51,12 @@ body {
     padding: 8px;
     font-size: 1rem;
   }
+
+  #search-song-button {
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -59,6 +64,12 @@ body {
     width: 200px;
     padding: 6px;
     font-size: 1rem;
+  }
+
+  #search-song-button {
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
   }
 }
 /*---search-song-input-field-section--*/
