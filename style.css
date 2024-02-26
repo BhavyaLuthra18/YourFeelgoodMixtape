@@ -46,6 +46,21 @@ body {
   transform: scale(1.05);
 }
 
+@media (max-width: 768px) {
+  #song-input-field input {
+    width: 200px;
+    padding: 8px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #song-input-field input {
+    width: 200px;
+    padding: 6px;
+    font-size: 1rem;
+  }
+}
 /*---search-song-input-field-section--*/
 /*--search-song---*/
 #searchsong {
