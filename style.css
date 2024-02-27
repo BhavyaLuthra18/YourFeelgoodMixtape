@@ -32,8 +32,9 @@ body {
   padding: 12px 20px;
   border-radius: 25px;
   font-size: 1.1rem;
-  background-color: #7dcbf3;
-  border: 1px solid #7dcbf3;
+  color: #fff;
+  background-color: #1c8dc6;
+  border: 1px solid #1c8dc6;
   transition: background-color 0.3s;
 }
 
