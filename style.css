@@ -116,6 +116,7 @@ body {
 .container {
   display: flex;
   width: 90vw;
+  margin-bottom: 20px;
   justify-content: space-around;
   align-items: center;
   margin-left: 100px;
@@ -361,7 +362,7 @@ select {
 #Playlist-div {
   background: linear-gradient(180deg, #000, #4d235d);
   width: 300px;
-  height: 500px;
+  height: 450px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
