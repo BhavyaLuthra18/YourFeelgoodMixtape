@@ -347,9 +347,9 @@ select {
   text-align: center;
 }
 #add-to-playlist {
-  background-color: darkorchid;
-  border-radius: 10px;
-  color: #fff;
+  background-color: #c7c7c7;
+  border-radius: 50px;
+  color: #000000;
   white-space: nowrap;
   display: flex;
   justify-content: center;
