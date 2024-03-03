@@ -103,13 +103,13 @@ body {
 
 /* ---Heading of the music Player---*/
 .heading {
-  color: rgb(146, 87, 155);
+  color: rgb(141, 68, 153);
   font-size: 1.6rem;
   text-align: center;
 }
 
 .topHeading {
-  color: rgb(146, 87, 155);
+  color: rgb(141, 68, 153);
 }
 
 /*--container that stores all songs ,song card, playlist section*/
