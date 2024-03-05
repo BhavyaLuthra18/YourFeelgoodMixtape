@@ -97,7 +97,7 @@ body {
 /*--styling of the toggle-button theme---*/
 
 [data-theme="dark"] {
-  background-color: #19041b;
+  background-color: #000000;
   color: black;
 }
 
