@@ -292,6 +292,7 @@ select {
 #controls {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 /*-PREV BUTTON--*/
@@ -301,6 +302,7 @@ select {
   width: 80px;
   height: 40px;
   margin-left: 30px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   border: #269bd5 4px solid;
@@ -319,6 +321,7 @@ select {
   display: flex;
   justify-content: center;
   margin-right: 30px;
+  margin-top: 15px;
   border: #269bd5 4px solid;
 }
 
@@ -352,7 +355,7 @@ select {
   justify-content: center;
   text-align: center;
   gap: 10px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 /*--PLAYLIST SECTION---*/
