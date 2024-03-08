@@ -73,8 +73,8 @@ body {
 }
 
 #song-search-results-list li:hover {
-  box-shadow: 0 4px 15px rgba(1, 0, 1, 0.5); /* Add a glowing effect */
-  transform: scale(1.02); /* Slightly enlarge the item for emphasis */
+  box-shadow: 0 4px 15px rgba(1, 0, 1, 0.5);
+  transform: scale(1.02);
 }
 
 /*---toogle--button--*/
@@ -123,7 +123,7 @@ body {
 @media (max-width: 840px) {
   .container {
     flex-direction: column;
-    margin-left: 0; /* Optional: adjust margin on small screens */
+    margin-left: 0;
   }
 }
 
@@ -148,15 +148,15 @@ body {
 
 @media (max-width: 768px) {
   #All-Songs {
-    width: 60vw; /* Adjust width for smaller screens */
+    width: 60vw;
     height: 75vh;
   }
 }
 
 @media (max-width: 480px) {
   #All-Songs {
-    width: 80vw; /* Adjust width for very small screens */
-    height: 70vh; /* Adjust height for very small screens */
+    width: 80vw;
+    height: 70vh;
   }
 }
 
@@ -195,17 +195,17 @@ select {
 /*-List of songs under 'All Songs'--*/
 /* Main Song List Styling */
 #song-list {
-  font-size: 0.75rem; /* Slightly smaller font size */
+  font-size: 0.75rem;
   color: #fff;
   padding: 15px;
-  border: 2px solid #580d7e; /* Matching border color */
+  border: 2px solid #580d7e;
   border-radius: 15px;
   background: linear-gradient(
     145deg,
     #641d7d,
     #530d76
   ); /* Gradient background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5); /* Subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5);
   max-width: 400px;
   margin: auto;
   overflow-y: auto;
@@ -215,13 +215,13 @@ select {
 /* Remove the style of the list items */
 #song-list li {
   list-style-type: none;
-  padding: 8px 10px; /* Reduced padding */
-  margin-bottom: 6px; /* Reduced margin */
+  padding: 8px 10px;
+  margin-bottom: 6px;
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.1); /* Light overlay for items */
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
-  font-size: 0.9rem; /* Reduced font size for better fit */
+  font-size: 0.9rem;
 }
 
 /* Hover Effects for List Items */
@@ -438,8 +438,8 @@ select {
 @media (max-width: 768px) {
   /* Adjust layout for smaller screens (tablets and phones) */
   #Playlist-div {
-    width: 80vw; /* Take up more space on smaller screens */
-    height: 50vh; /* Adjust height */
+    width: 80vw;
+    height: 50vh;
     margin-right: 0;
     margin-bottom: 20px;
   }
@@ -450,7 +450,7 @@ select {
 
   #create-playlist-button {
     width: 90%;
-    max-width: 250px; /* Make button smaller */
+    max-width: 250px;
   }
 
   #add-to-playlist {
@@ -472,8 +472,8 @@ select {
 @media (max-width: 480px) {
   /* Adjust layout for very small screens (smartphones) */
   #Playlist-div {
-    width: 90vw; /* Max width for smaller devices */
-    height: 40vh; /* Adjust height */
+    width: 90vw;
+    height: 40vh;
   }
 
   #playlist-name-input {
