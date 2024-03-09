@@ -202,8 +202,8 @@ select {
   border-radius: 15px;
   background: linear-gradient(
     145deg,
-    #2c023b,
-    #580d7e
+    #641d7d,
+    #530d76
   ); /* Gradient background */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5); /* Subtle shadow */
   max-width: 400px;
