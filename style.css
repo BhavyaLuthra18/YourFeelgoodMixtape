@@ -195,7 +195,7 @@ select {
 /*-List of songs under 'All Songs'--*/
 /* Main Song List Styling */
 #song-list {
-  font-size: 1.1rem;
+  font-size: 0.75rem; /* Slightly smaller font size */
   color: #fff;
   padding: 15px;
   border: 2px solid #580d7e; /* Matching border color */
@@ -209,18 +209,19 @@ select {
   max-width: 400px;
   margin: auto;
   overflow-y: auto;
-  max-height: 300px; /* Scrollable list */
+  max-height: 400px;
 }
 
 /* Remove the style of the list items */
 #song-list li {
   list-style-type: none;
-  padding: 10px 15px;
-  margin-bottom: 8px;
+  padding: 8px 10px; /* Reduced padding */
+  margin-bottom: 6px; /* Reduced margin */
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1); /* Light overlay for items */
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
+  font-size: 0.9rem; /* Reduced font size for better fit */
 }
 
 /* Hover Effects for List Items */
@@ -229,7 +230,7 @@ select {
   box-shadow: 0 4px 6px rgba(88, 13, 126, 0.4),
     inset 0 0 10px rgba(255, 255, 255, 0.3);
   border-radius: 15px;
-  transform: scale(1.05); /* Slight zoom effect */
+  transform: scale(1.03); /* Slight zoom effect */
   cursor: pointer;
 }
 
@@ -239,6 +240,11 @@ select {
   color: #fff;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(255, 140, 0, 0.7);
+}
+
+/* Remove Bottom Margin for the Last Item */
+#song-list li:last-child {
+  margin-bottom: 0;
 }
 
 /*--SoNG-CARD-SECTION---*/
