@@ -193,22 +193,52 @@ select {
 }
 
 /*-List of songs under 'All Songs'--*/
+/* Main Song List Styling */
 #song-list {
   font-size: 1.1rem;
   color: #fff;
-  padding: 10px;
+  padding: 15px;
+  border: 2px solid #580d7e; /* Matching border color */
+  border-radius: 15px;
+  background: linear-gradient(
+    145deg,
+    #2c023b,
+    #580d7e
+  ); /* Gradient background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(88, 13, 126, 0.5); /* Subtle shadow */
+  max-width: 400px;
+  margin: auto;
+  overflow-y: auto;
+  max-height: 300px; /* Scrollable list */
 }
 
-/*-REMOVING THE STYLE OF THE LISTITEM BY DISPLAY :NONE -*/
+/* Remove the style of the list items */
 #song-list li {
   list-style-type: none;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1); /* Light overlay for items */
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* Hover Effects for List Items */
 #song-list li:hover {
-  background-color: #580d7e;
-  border-radius: 10px;
-  padding: 10px;
+  background: #580d7e;
+  box-shadow: 0 4px 6px rgba(88, 13, 126, 0.4),
+    inset 0 0 10px rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  transform: scale(1.05); /* Slight zoom effect */
   cursor: pointer;
+}
+
+/* Active List Item Styling */
+#song-list li.active {
+  background: #ff8c00; /* Highlight the selected song */
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.7);
 }
 
 /*--SoNG-CARD-SECTION---*/
