@@ -321,13 +321,23 @@ select {
 
 /*--PLAYLIST SECTION---*/
 #Playlist-div {
-  background: linear-gradient(black, #8b4aa1 70%);
-  width: 25vw;
-  height: 58vh;
-  border-radius: 10px;
-  margin-right: 100px;
-  padding-top: 8px;
+  background: linear-gradient(180deg, #000, #4d235d);
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+#Playlist-div::-webkit-scrollbar {
+  width: 8px;
+}
+
+#Playlist-div::-webkit-scrollbar-thumb {
+  background-color: #9c6fb5;
+  border-radius: 10px;
 }
 
 #playlist-name-input {
