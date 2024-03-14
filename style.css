@@ -13,37 +13,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d4adde;
-  padding: 10px;
-  gap: 10px;
-}
-
-/*---search-song-input-field-section--*/
-#song-input-field {
-  display: flex;
+  background-color: #e6c8f3;
+  padding: 15px;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 #song-input-field input {
-  width: 500px;
-  padding: 10px;
-  border: 2px solid #ffffff;
-  border-radius: 50px;
+  width: 400px;
+  padding: 12px;
+  border: 2px solid #a762b9;
+  border-radius: 25px;
+  font-size: 1rem;
 }
 
 #search-song-button {
-  width: 300px;
-  height: 50px;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  color: #ffffff;
-  background-color: rgb(15, 15, 15);
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
 }
 
-#song-input-field button:hover {
-  background: #a762b9;
-  border: 1px solid #c989d9;
-  cursor: pointer;
+#search-song-button:hover {
+  background-color: #6f3d92;
+  transform: scale(1.05);
 }
+
+/*---search-song-input-field-section--*/
 
 /*--search-song---*/
 #searchsong {
