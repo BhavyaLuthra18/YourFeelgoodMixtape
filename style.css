@@ -81,7 +81,6 @@ body {
 }
 
 /*---toogle--button--*/
-
 #btn {
   background-color: #0573ab;
   color: #fff;
@@ -135,9 +134,10 @@ body {
 #All-Songs {
   background: linear-gradient(135deg, rgb(4, 3, 3) 10%, #b569c6 90%);
   width: 25vw;
-  height: 70vh;
+  height: 75vh;
   border-radius: 10px;
   padding: 10px;
+  font-size: 0.75rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 100px;
 }
@@ -145,14 +145,14 @@ body {
 @media (max-width: 1024px) {
   #All-Songs {
     width: 40vw;
-    height: 70vh;
+    height: 75vh;
   }
 }
 
 @media (max-width: 768px) {
   #All-Songs {
     width: 60vw; /* Adjust width for smaller screens */
-    height: 70vh;
+    height: 75vh;
   }
 }
 
@@ -185,7 +185,7 @@ select {
   color: #fff;
   margin-top: 20px;
   margin-left: 20px;
-  font-size: 1.5rem;
+  font-size: 0.25rem;
 }
 
 /*---styling of heading 'All Songs'----*/
@@ -197,7 +197,7 @@ select {
 
 /*-List of songs under 'All Songs'--*/
 #song-list {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #fff;
   padding: 10px;
 }
