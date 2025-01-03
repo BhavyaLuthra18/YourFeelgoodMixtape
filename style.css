@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
+
+body {
+  background-color: #d2d2d2;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease;
+  font-family: "Marhey", cursive;
+}
+
+/*---COMBINE STYLING OF THE SEARCH FIELD AND THE TOGGLE THEME--*/
+#search-theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4adde;
+  padding: 10px;
+  gap: 10px;
+}
+
+/*---search-song-input-field-section--*/
+#song-input-field {
+  display: flex;
+}
+
+#song-input-field input {
+  width: 500px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+
+#search-song-button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: rgb(15, 15, 15);
+}
+
+#song-input-field button:hover {
+  background: #a762b9;
+  border: 1px solid #c989d9;
+  cursor: pointer;
+}
+
+/*--search-song---*/
+#searchsong {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/*---search input field styling---*/
+#song-search-input {
+  width: 500px;
+  height: 20px;
+}
+
+/*---search Song Button---*/
+#search-song-button {
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+/*---search-song-results-styling---*/
+#song-search-results-list li {
+  list-style-type: none;
+  font-size: 2rem;
+  background-color: #000;
+  border-radius: 10px;
+  color: white;
+  width: 700px;
+}
+
+#song-search-results-list li:hover {
+  box-shadow: 0 4px 15px rgba(1, 0, 1, 0.5); /* Add a glowing effect */
+  transform: scale(1.02); /* Slightly enlarge the item for emphasis */
+}
+
+/*---toogle--button--*/
+
+#btn {
+  background-color: #0573ab;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 150px;
+  height: 50px;
+  border: #0573ab 2px solid;
+  border-radius: 100px;
+  margin-left: 500px;
+}
+/*--Text of the Toggle-buttonn--*/
+#btnText {
+  text-align: center;
+}
+
+/*--styling of the toggle-button theme---*/
+
+[data-theme="dark"] {
+  background-color: #01011b;
+  color: black;
+}
+
+/* ---Heading of the music Player---*/
+.heading {
+  color: rgb(65, 4, 75);
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.topHeading {
+  color: rgb(104, 22, 116);
+}
+
+/*--container that stores all songs ,song card, playlist section*/
+.container {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+}
+
+@media (max-width: 840px) {
+  .container {
+    flex-direction: column;
+    margin-left: 0; /* Optional: adjust margin on small screens */
+  }
+}
+
+/*--all songs Section---*/
+#All-Songs {
+  background: linear-gradient(135deg, rgb(4, 3, 3) 10%, #b569c6 90%);
+  width: 25vw;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1024px) {
+  #All-Songs {
+    width: 40vw;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #All-Songs {
+    width: 60vw; /* Adjust width for smaller screens */
+    height: 70vh;
+  }
+}
+
+@media (max-width: 480px) {
+  #All-Songs {
+    width: 80vw; /* Adjust width for very small screens */
+    height: 70vh; /* Adjust height for very small screens */
+  }
+}
+
+/*--styling of filter-genre-sectionn--*/
+#filter-by-genre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/*--filter-dropdown-menu-select---*/
+select {
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+/*--styling to description of dropdown menu 'FILTER BY GENRE:'--*/
+#filter-by-genre #filter-song {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+/*---styling of heading 'All Songs'----*/
+#genre-songs h1 {
+  color: #ffffff;
+  margin-left: 20px;
+  width: 200px;
+}
+
+/*-List of songs under 'All Songs'--*/
+#song-list {
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 10px;
+}
+
+/*-REMOVING THE STYLE OF THE LISTITEM BY DISPLAY :NONE -*/
+#song-list li {
+  list-style-type: none;
+}
+
+#song-list li:hover {
+  background-color: #580d7e;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*--SoNG-CARD-SECTION---*/
+#Song-card {
+  background: linear-gradient(#e894ff, black, #400358);
+  width: 350px;
+  height: 600px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+/*--SONG-DETAILSS--*/
+#song-details {
+  background-color: #000000;
+  margin-top: 30px;
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+}
+/*-----SONG NAME ,ARTIST NAME,SONG IMAGE----*/
+#song-name {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+#artist-name {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.cardimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#song-image {
+  width: 180px;
+}
+
+/*--CONTROL BUTTONS (Previous,Next,Addtoplaylist)--*/
+#controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-PREV BUTTON--*/
+#Prev {
+  background-color: #e9e7e7;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  border: #269bd5 4px solid;
+}
+
+/*--PREVIOUS BUTTON ICON STYLING-*/
+.fa-arrow-left {
+  text-align: center;
+}
+/*-NEXT BUTTON--*/
+#Next {
+  background-color: #e9e7e7;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  border: #269bd5 4px solid;
+}
+
+/*--NEXT BUTTON ICON STYLING-*/
+.fa-arrow-right {
+  text-align: center;
+}
+
+#audio {
+  width: 280px;
+  height: 45px;
+}
+/*--AUDIO STYLING IN SONG CARD--*/
+.audio-section {
+  display: flex;
+  justify-content: center;
+}
+
+/*--ADD-TO-PLAYLIST BUTTON --*/
+.addtocartsection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#add-to-playlist {
+  background-color: darkorchid;
+  border-radius: 10px;
+  color: #fff;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+/*--PLAYLIST SECTION---*/
+#Playlist-div {
+  background: linear-gradient(black, #8b4aa1 70%);
+  width: 25vw;
+  height: 58vh;
+  border-radius: 10px;
+  margin-right: 100px;
+  padding-top: 8px;
+  overflow-y: auto;
+}
+
+#playlist-name-input {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+#create-playlist-button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: rgb(15, 15, 15);
+}
+
+/*--CREATE TO PLAYLIST BUTTON TEXT---*/
+#button-text {
+  margin-top: 50px;
+  font-size: 1rem;
+  text-align: center;
+}
+#addtocardbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  width: 180px;
+  height: 50px;
+}
+
+/*---CURRENT PLAYLIST HEADING--*/
+#current-playlist h1 {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+#all-playlists {
+  overflow-y: auto;
+}
+/*--ALL PLAYLIST SECTION HEADING---*/
+#all-playlists h1 {
+  color: #fff;
+  margin-top: 150px;
+  text-align: center;
+  width: 210px;
+}
+
+/*---PLAYLIST SECTION LIST STYLING--*/
+.playlist-section li {
+  list-style: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  /* Adjust layout for smaller screens (tablets and phones) */
+  #Playlist-div {
+    width: 80vw; /* Take up more space on smaller screens */
+    height: 50vh; /* Adjust height */
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #playlist-name-input {
+    width: 90%;
+  }
+
+  #create-playlist-button {
+    width: 90%;
+    max-width: 250px; /* Make button smaller */
+  }
+
+  #add-to-playlist {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #all-playlists h1 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .playlist-section li {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust layout for very small screens (smartphones) */
+  #Playlist-div {
+    width: 90vw; /* Max width for smaller devices */
+    height: 40vh; /* Adjust height */
+  }
+
+  #playlist-name-input {
+    width: 80%;
+  }
+
+  #create-playlist-button {
+    width: 80%;
+    max-width: 200px;
+  }
+
+  #all-playlists h1 {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
