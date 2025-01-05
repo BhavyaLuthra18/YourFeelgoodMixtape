@@ -11,12 +11,15 @@ body {
 /*---COMBINE STYLING OF THE SEARCH FIELD AND THE TOGGLE THEME--*/
 #search-theme {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: #e6c8f3;
   padding: 15px;
   gap: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: 0 auto;
   border-radius: 10px;
 }
 
