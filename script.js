@@ -43,22 +43,6 @@ const songJSON = [
   },
   {
     id: 6,
-    Name: "Mercy",
-    artist: "Badshah",
-    img: "./songimages/mercy.jpeg",
-    genre: "hip-hop",
-    source: "./songaudios/Mercy.mp3",
-  },
-  {
-    id: 7,
-    Name: "La La La",
-    artist: "Arjun Kanungo & Neha KaKkar",
-    img: "./songimages/lalala.jpeg",
-    genre: "hip-hop",
-    source: "./songaudios/lalala.mp3",
-  },
-  {
-    id: 8,
     Name: "Tu Ake Dekhle",
     artist: "King",
     img: "./songimages/tuakedekhle.jpeg",
@@ -66,7 +50,7 @@ const songJSON = [
     source: "./songaudios/Tuaakedekhle.mp3",
   },
   {
-    id: 9,
+    id: 7,
     Name: "Samjho Na",
     artist: "Aditya Rikhaari",
     img: "./songimages/samjhoNa.jpeg",
@@ -74,7 +58,7 @@ const songJSON = [
     source: "./songaudios/Samjho Na.mp3",
   },
   {
-    id: 10,
+    id: 8,
     Name: "Heeriye",
     artist: "jasleen royal & Arijit Singh",
     img: "./songimages/heeriye.jpeg",
@@ -82,7 +66,7 @@ const songJSON = [
     source: "./songaudios/Heeriye.mp3",
   },
   {
-    id: 11,
+    id: 9,
     Name: "ishq Hai",
     artist: "Aditya Rikhari",
     img: "./songimages/ishqhai.jpeg",
@@ -90,7 +74,7 @@ const songJSON = [
     source: "./songaudios/Ishq Hai.mp3",
   },
   {
-    id: 12,
+    id: 10,
     Name: "Ghoomey",
     artist: "Jubin Nautiyal",
     img: "./songimages/ghoomey.jpeg",
