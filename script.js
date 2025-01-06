@@ -19,7 +19,7 @@ const songJSON = [
   },
   {
     id: 3,
-    Name: "humraah",
+    Name: "Humraah",
     artist: "sachet Tandon",
     img: "./songimages/humraah.jpeg",
     genre: "rock",
