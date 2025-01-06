@@ -67,7 +67,7 @@ const songJSON = [
   },
   {
     id: 9,
-    Name: "ishq Hai",
+    Name: "Ishq Hai",
     artist: "Aditya Rikhari",
     img: "./songimages/ishqhai.jpeg",
     genre: "romantic",
