@@ -328,7 +328,7 @@ select {
 /*--SoNG-CARD-SECTION---*/
 #Song-card {
   background: linear-gradient(145deg, #6c43b8, #9c6eed);
-  width: 300px;
+  width: 280px;
   height: 550px;
   display: flex;
   flex-direction: column;
