@@ -462,7 +462,7 @@ select {
   width: 100%;
   max-width: 300px;
   height: auto;
-  min-height: 300px;
+  min-height: 500px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
@@ -557,6 +557,7 @@ select {
 @media (max-width: 768px) {
   #Playlist-div {
     max-width: 90%;
+    min-height: 500px;
     height: auto;
     padding: 15px;
   }
@@ -581,7 +582,7 @@ select {
 @media (max-width: 480px) {
   #Playlist-div {
     max-width: 100%;
-    min-height: 250px;
+    min-height: 500px;
     height: auto;
     padding: 10px;
   }
