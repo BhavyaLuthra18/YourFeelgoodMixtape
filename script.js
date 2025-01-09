@@ -418,14 +418,24 @@ function createPlaylist(playlistName) {
   savePlaylists(); // Save playlists after creating a new one
   displayPlaylists(); // Refresh the playlist UI
 }
+
 //SAVING OF ADD TO PLAYLIST FUNCTION
 // Function to add a song to a playlist and save it
 function addToPlaylist(playlistName, song) {
   const playlist = myPlaylists.find((pl) => pl.name === playlistName);
   if (playlist) {
-    playlist.songs.push(song);
-    savePlaylists(); // Save playlists after adding a song
-    displayPlaylists(); // Refresh the playlist UI
+    // Check if the song already exist in the Playlist
+    const songExists = playlist.songs.find((s) => s.Name === song.Name);
+    if (!songExists) {
+      playlist.songs.push(song);
+      savePlaylists(); // Save playlists after adding a song
+      displayPlaylists(); // Refresh the playlist UI
+      alert(`"${song.Name}" added to playlist "${playlist.name}"`);
+    } else {
+      alert(`"${song.Name}" is already in the "${playlist.name}"`);
+    }
+  } else {
+    alert(`Playlist "${playlistName}" not found.`);
   }
 }
 //DISPLAY PLAYLIST FUNCTION
