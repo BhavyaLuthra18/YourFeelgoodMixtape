@@ -48,13 +48,13 @@ body {
 }
 
 .topHeading {
-  color: #6d5271; 
-  font-size: 3rem; 
+  color: #6d5271;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
-  transition: text-shadow 0.3s, color 0.3s; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: text-shadow 0.3s, color 0.3s;
 }
 
 .topHeading img {
@@ -470,7 +470,7 @@ select {
 
 /*--PLAYLIST SECTION---*/
 #Playlist-div {
-  background: linear-gradient(180deg, #000, #952fbd);
+  background: linear-gradient(180deg, #974ea6, #560c74);
   width: 100%;
   max-width: 300px;
   height: auto;
