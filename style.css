@@ -538,6 +538,7 @@ select {
 #all-playlists {
   overflow-y: auto;
 }
+
 /*--ALL PLAYLIST SECTION HEADING---*/
 #all-playlists h1 {
   color: #fff;
@@ -548,7 +549,6 @@ select {
 }
 
 /*---PLAYLIST SECTION LIST STYLING--*/
-
 .playlist-section ul {
   margin: 0;
   padding: 0;
