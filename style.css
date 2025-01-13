@@ -413,13 +413,13 @@ select {
 
 #Prev:hover,
 #Next:hover {
-  background-color: #f3f3f3; /* Slight hover change */
+  background-color: #f3f3f3;
   transform: scale(1.1);
 }
 
 .fa-arrow-left,
 .fa-arrow-right {
-  color: #6c43b8; /* Match the card's gradient */
+  color: #6c43b8;
   font-size: 1.5rem;
 }
 
