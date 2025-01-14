@@ -137,7 +137,7 @@ function displaySearchResults(results, type, query) {
   if (query && results.length > 0) {
     results.forEach((result) => {
       const listItem = document.createElement("li");
-      listItem.style.display = "flex"; // To align the image and text side by side
+      listItem.style.display = "flex";
       listItem.style.alignItems = "center";
       listItem.style.marginBottom = "10px";
 
@@ -149,7 +149,7 @@ function displaySearchResults(results, type, query) {
       songImage.style.height = "50px";
       songImage.style.marginRight = "10px";
       songImage.style.objectFit = "cover";
-      songImage.style.borderRadius = "5px"; // Optional for rounded edges
+      songImage.style.borderRadius = "5px";
 
       // Add song text
       const songText = document.createElement("span");

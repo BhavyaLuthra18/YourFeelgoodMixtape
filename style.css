@@ -289,7 +289,6 @@ select {
 }
 
 /*-List of songs under 'All Songs'--*/
-/* Main Song List Styling */
 #song-list {
   font-size: 0.75rem;
   color: #fff;
@@ -481,7 +480,7 @@ select {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   overflow-y: auto;
   scrollbar-width: thin;
-  margin: 0 auto;
+  margin-top: -20px;
 }
 
 #create-playlist {
@@ -506,8 +505,9 @@ select {
   font-size: 1.1rem;
   border: 2px solid #ffffff;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   box-sizing: border-box;
+  margin-top: -40px;
 }
 
 #create-playlist-button {
@@ -518,6 +518,7 @@ select {
   color: #ffffff;
   background-color: rgb(15, 15, 15);
   white-space: nowrap;
+  margin-top: -40px;
 }
 
 /*--CREATE TO PLAYLIST BUTTON TEXT---*/
