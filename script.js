@@ -382,6 +382,7 @@ function displaySongs(genre) {
     });
   }
 }
+
 //UPDATING SONG CARD WITH SELECTED SONG
 // Function to update the song card with the currently selected song
 function updateSongCard() {
@@ -438,6 +439,7 @@ function addToPlaylist(playlistName, song) {
     alert(`Playlist "${playlistName}" not found.`);
   }
 }
+
 //DISPLAY PLAYLIST FUNCTION
 // Function to display playlists and songs on the UI
 function displayPlaylists() {
@@ -521,6 +523,7 @@ document.addEventListener("DOMContentLoaded", function () {
   displaySongs("all");
   updateSongCard();
 });
+
 //SHOW SONGS FUNCTION
 // Function to display songs based on the selected genre
 function showSongs(genre) {
