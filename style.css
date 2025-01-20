@@ -106,7 +106,7 @@ body {
   text-align: center;
 }
 
-/*--container that stores all songs ,song card, playlist section*/
+/*--Container that stores all songs ,song card, playlist section*/
 .container {
   display: flex;
   width: 90vw;
