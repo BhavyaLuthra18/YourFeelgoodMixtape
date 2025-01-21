@@ -151,12 +151,12 @@ body {
   gap: 2px;
 }
 
-/*--search-song---*/
+/*--Search-song---*/
 #searchsong {
   display: flex;
 }
 
-/*---search input field styling---*/
+/*---Search input field styling---*/
 #song-search-input {
   width: 400px;
   height: 20px;
@@ -165,7 +165,7 @@ body {
   align-items: center;
 }
 
-/*---search-song-results-styling---*/
+/*---Search-song-results-styling---*/
 #song-search-results-list li {
   list-style-type: none;
   font-size: 1rem;
@@ -181,7 +181,7 @@ body {
   transform: scale(1.02);
 }
 
-/*---toogle--button--*/
+/*---Toogle--button--*/
 #btn {
   display: flex;
   align-items: center;
@@ -206,7 +206,7 @@ body {
   text-align: center;
 }
 
-/*--styling of the toggle-button theme---*/
+/*--Styling of the toggle-button theme---*/
 [data-theme="dark"] {
   background-color: #000000;
   color: white;
@@ -217,7 +217,7 @@ body {
   background-color: #7291e7;
 }
 
-/*--all songs Section---*/
+/*--All songs Section---*/
 #All-Songs {
   background: linear-gradient(135deg, rgb(66, 57, 69) 10%, #b569c6 90%);
   width: 25vw;
@@ -256,14 +256,14 @@ body {
   }
 }
 
-/*--styling of filter-genre-sectionn--*/
+/*--Styling of filter-genre-sectionn--*/
 #filter-by-genre {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/*--filter-dropdown-menu-select---*/
+/*--Filter-dropdown-menu-select---*/
 select {
   font-size: 1.4rem;
   color: #ffffff;
@@ -272,7 +272,7 @@ select {
   margin-left: 20px;
 }
 
-/*--styling to description of dropdown menu 'FILTER BY GENRE:'--*/
+/*--Styling to description of dropdown menu 'FILTER BY GENRE:'--*/
 #filter-by-genre #filter-song {
   color: #fff;
   margin-top: 20px;
@@ -281,7 +281,7 @@ select {
   font-size: 1.2rem;
 }
 
-/*---styling of heading 'All Songs'----*/
+/*---Styling of heading 'All Songs'----*/
 #genre-songs h1 {
   color: #ffffff;
   margin-left: 20px;
