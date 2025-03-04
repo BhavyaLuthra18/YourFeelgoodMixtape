@@ -196,7 +196,7 @@ body {
   transition: background-color 0.3s;
 }
 
-/*--Text--OF--The---Toggle----Button----------*/
+/*--Text--Of--The---Toggle----Button----------*/
 #btnIcon {
   font-size: 1.5rem;
 }
@@ -228,7 +228,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/*------------All--Songs--Section--(responsiveness)--------------*/
+/*------------All--------Songs-----Section---------(responsiveness)--------------*/
 @media (max-width: 1024px) {
   #All-Songs {
     width: 40vw;
