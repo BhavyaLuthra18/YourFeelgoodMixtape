@@ -151,12 +151,12 @@ body {
   gap: 2px;
 }
 
-/*--Search-song---*/
+/*------------------------Search--Song---------------*/
 #searchsong {
   display: flex;
 }
 
-/*---Search----------input---- field----styling---------------*/
+/*---------------------------Search-Input-Field--Styling----------------------*/
 #song-search-input {
   width: 400px;
   height: 20px;
@@ -165,7 +165,7 @@ body {
   align-items: center;
 }
 
-/*---Search-song-results-styling---*/
+/*----------------------Search-Song-Results-Styling------------------------*/
 #song-search-results-list li {
   list-style-type: none;
   font-size: 1rem;
@@ -181,7 +181,7 @@ body {
   transform: scale(1.02);
 }
 
-/*----------Toggle--button-----------*/
+/*----------Toggle--Button-----------*/
 #btn {
   display: flex;
   align-items: center;
