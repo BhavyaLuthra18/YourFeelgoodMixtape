@@ -181,7 +181,7 @@ body {
   transform: scale(1.02);
 }
 
-/*---Toogle--button--*/
+/*----------Toggle--button-----------*/
 #btn {
   display: flex;
   align-items: center;
@@ -212,12 +212,12 @@ body {
   color: white;
 }
 
-/* Toggle button effect on hover */
+/*------------------------ Toggle-Button--Effect--On--Hover------------------------- */
 #btn:hover {
   background-color: #7291e7;
 }
 
-/*--All songs Section---*/
+/*-------------------------All-Songs--Section-------------------*/
 #All-Songs {
   background: linear-gradient(135deg, rgb(66, 57, 69) 10%, #b569c6 90%);
   width: 25vw;
@@ -228,7 +228,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/*------------All--Songs--Section--(responsiveness)---------------*/
+/*------------All--Songs--Section--(responsiveness)--------------*/
 @media (max-width: 1024px) {
   #All-Songs {
     width: 40vw;
