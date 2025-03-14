@@ -156,7 +156,7 @@ body {
   display: flex;
 }
 
-/*---Search input field styling---*/
+/*---Search----------input---- field----styling---------------*/
 #song-search-input {
   width: 400px;
   height: 20px;
@@ -196,7 +196,7 @@ body {
   transition: background-color 0.3s;
 }
 
-/*--Text of the Toggle-buttonn--*/
+/*--Text--of--the---Toggle-button----------*/
 #btnIcon {
   font-size: 1.5rem;
 }
@@ -228,6 +228,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*------------All--Songs--Section--(responsiveness)---------------*/
 @media (max-width: 1024px) {
   #All-Songs {
     width: 40vw;
@@ -256,7 +257,7 @@ body {
   }
 }
 
-/*--Styling of filter-genre-sectionn--*/
+/*--Styling of filter-genre-section--------*/
 #filter-by-genre {
   display: flex;
   justify-content: space-between;
